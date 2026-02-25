@@ -24,7 +24,7 @@ class MyTCPHandler(socketserver.StreamRequestHandler):
                         self.wfile.write(b"id:\r\n")
                         self.wfile.write(b" 246850\r\n")
                     case b'PC':
-                        self.wfile.write(b"pc:\r\n")
+                        self.wfile.write(b"pc: 28\r\n")
                         self.wfile.write(b" \r\n")
                     case b'QUIT':
                         self.wfile.write(b"Closing connection...\r\n")
