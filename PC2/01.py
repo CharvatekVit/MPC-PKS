@@ -2,7 +2,7 @@ import socket
 import time
 
 #adresa a port serveru
-host = "127.0.0.1"
+host = "147.229.150.222"
 port = 50000
 
 #vytvoreni socketu
