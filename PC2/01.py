@@ -18,6 +18,8 @@ for i in range(5):
     #prijem
     data = tcp_socket.recv(1024)
     print(data)
+    time.sleep(1)
+    
 
 #uzavreni kanalu
 tcp_socket.close()
